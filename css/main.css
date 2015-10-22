@@ -164,12 +164,14 @@ nav a:hover {
 
 
 
+	
+
 
 
 
 
 /* ==========================================================================
-   Media Queries
+   Media Queries by Sade R
    ========================================================================== */
 
 @media (max-width: 1300px) {
@@ -179,9 +181,24 @@ body {
 	}
 	
 @media (min-width: 1000px) {
-.age {
-        	display:none;
-		}
+.from{
+    display:;
+}
+    .age{
+	display:none;
+}
+	.major{
+	display:none;
+}
+	.personality{
+	display:none;
+}
+	.hobbies{
+	display:none;
+}
+	.travel{
+	display:none;
+}
 			}
 @media (min-width: 900px) and (max-width: 1000px){
 body {
@@ -190,10 +207,24 @@ body {
 	}
 			
 @media (min-width: 900px) {
-.major {
-        	display:none;
-
-		}
+.from{
+    display:;
+}
+    .age{
+	display:;
+}
+	.major{
+	display:none;
+}
+	.personality{
+	display:none;
+}
+	.hobbies{
+	display:none;
+}
+	.travel{
+	display:none;
+}
 			}
 @media (min-width: 800px) and (max-width: 900px){
 body {
@@ -202,44 +233,104 @@ body {
 	}
 
 @media (min-width: 800px) {
-.personality {
-        	display:none;
-
-		}
+.from{
+    display:;
+}
+    .age{
+	display:;
+}
+	.major{
+	display:;
+}
+	.personality{
+	display:none;
+}
+	.hobbies{
+	display:none;
+}
+	.travel{
+	display:none;
+}
 			}		
 
 @media (min-width: 700px) and (max-width: 800px) {
 body {
-	background-color: orangered;
+	background-color: mediumvioletred;
 	}
 	}			
 			
 @media (min-width: 700px) {
-.hobbies {
-        	display:none;
-
-		}
-			}	
+.from{
+    display:;
+}
+    .age{
+	display:;
+}
+	.major{
+	display:;
+}
+	.personality{
+	display:;
+}
+	.hobbies{
+	display:none;
+}
+	.travel{
+	display:none;
+}	}	
 			
 @media (min-width: 600px) and (max-width: 700px) {
 body {
-	background-color: gold;
+	background-color:lightcoral;
 	}
-	}					
+    
+    .from{
+    display:;
+}
+    .age{
+	display:;
+}
+	.major{
+	display:;
+}
+	.personality{
+	display:;
+}
+	.hobbies{
+	display:;
+}
+	.travel{
+	display:none;
+}
+	}	
+
 			
 @media (min-width: 600px) {
-.travel {
-        	display:none;
-
-		}
+.from{
+    display:;
+}
+    .age{
+	display:;
+}
+	.major{
+	display:;
+}
+	.personality{
+	display:;
+}
+	.hobbies{
+	display:;
+}
+	.travel{
+	display:;
+}
 			}	
 				
 @media (max-width: 600px) {
 body {
-	background-color: mediumvioletred;
+	background-color: gold;
 	}
 	}
-
 
 
 @media only screen and (min-width: 480px) {
